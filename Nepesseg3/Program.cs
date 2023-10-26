@@ -9,4 +9,4 @@ while (!sr.EndOfStream)
     orszagok.Add(new Orszag(sr.ReadLine()));
 }
 
-Console.WriteLine(orszagok.Count);
+Console.WriteLine($"3.Feladat:{orszagok.Count}");
