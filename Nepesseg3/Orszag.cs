@@ -11,6 +11,7 @@ namespace Nepesseg3
     public int Nepesseg { get; private set; }
     public string Fovaros { get; private set; }
     public int FovarosNepesseg { get; private set; }
+    public int Nepsuruseg => Nepesseg / Terulet;
 
     public Orszag(string sor)
     {
