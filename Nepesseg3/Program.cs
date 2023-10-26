@@ -7,4 +7,4 @@ _ = sr.ReadLine();
 while (!sr.EndOfStream)
     orszagok.Add(new(sr.ReadLine()));
 
-Console.WriteLine($"3.Feladat: {orszagok.Count}");
+Console.WriteLine($"3.Feladat: Beolvasott országok száma: {orszagok.Count}");
